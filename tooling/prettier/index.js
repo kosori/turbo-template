@@ -18,7 +18,6 @@ const config = {
     "<TYPES>",
     "^(react/(.*)$)|^(react$)",
     "^(next/(.*)$)|^(next$)",
-    "^(expo(.*)$)|^(expo$)",
     "<THIRD_PARTY_MODULES>",
     "",
     "<TYPES>^@acme",
