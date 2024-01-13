@@ -18,6 +18,8 @@ const config = {
         reservedFirst: true,
       },
     ],
+    'tailwindcss/classnames-order': 'off',
+    'tailwindcss/no-custom-classname': 'off',
   },
   globals: {
     React: 'writable',
