@@ -1,5 +1,6 @@
 import { Auth } from '@auth/core';
 import Discord from '@auth/core/providers/discord';
+import GitHub from '@auth/core/providers/github';
 import { eventHandler, toWebRequest } from 'h3';
 
 export default eventHandler(async (event) =>
@@ -11,6 +12,10 @@ export default eventHandler(async (event) =>
       Discord({
         clientId: process.env.AUTH_DISCORD_ID,
         clientSecret: process.env.AUTH_DISCORD_SECRET,
+      }),
+      GitHub({
+        clientId: process.env.AUTH_GITHUB_ID,
+        clientSecret: process.env.AUTH_GITHUB_SECRET,
       }),
     ],
   }),
