@@ -427,7 +427,7 @@ importers:
         specifier: ^3.2.2
         version: 3.2.2
       prettier-plugin-tailwindcss:
-        specifier: ^0.5.10
+        specifier: ^0.5.11
         version: 0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier@3.2.2)
     devDependencies:
       '@acme/tsconfig':
