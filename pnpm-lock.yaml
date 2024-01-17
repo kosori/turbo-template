@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@auth/core': 0.20.0
+
 importers:
 
   .:
@@ -121,8 +124,8 @@ importers:
   apps/auth-proxy:
     dependencies:
       '@auth/core':
-        specifier: ^0.19.0
-        version: 0.19.1
+        specifier: 0.20.0
+        version: 0.20.0
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:^0.2.0
@@ -488,41 +491,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.21
     dev: false
 
-  /@auth/core@0.18.4:
-    resolution: {integrity: sha512-GsNhsP1xE/3FoNS3dVkPjqRljLNJ4iyL2OLv3klQGNvw3bMpROFcK4lqhx7+pPHiamnVaYt2vg1xbB+lsNaevg==}
-    peerDependencies:
-      nodemailer: ^6.8.0
-    peerDependenciesMeta:
-      nodemailer:
-        optional: true
-    dependencies:
-      '@panva/hkdf': 1.1.1
-      cookie: 0.6.0
-      jose: 5.2.0
-      oauth4webapi: 2.6.0
-      preact: 10.11.3
-      preact-render-to-string: 5.2.3(preact@10.11.3)
-    dev: false
-
-  /@auth/core@0.19.1:
-    resolution: {integrity: sha512-teirzfIp1MWSEX8SN4kNCfD9BOBnX8bL02WyWCOk4TVSucvRxG9GEWcUPRd8KcX4yZ0xVOGiQq7R6JkB2brjVQ==}
-    peerDependencies:
-      nodemailer: ^6.8.0
-    peerDependenciesMeta:
-      nodemailer:
-        optional: true
-    dependencies:
-      '@panva/hkdf': 1.1.1
-      '@types/cookie': 0.6.0
-      cookie: 0.6.0
-      jose: 5.2.0
-      oauth4webapi: 2.6.0
-      preact: 10.11.3
-      preact-render-to-string: 5.2.3(preact@10.11.3)
-    dev: false
-
-  /@auth/core@0.21.0:
-    resolution: {integrity: sha512-jUWYs8gjy2GvtP9dd/4S9KcwZ660Cm/IkybiAq96/2Ooku9SKk5SUG+UTEwkyLuaQ38ZgfwggfpDOgzsXEcufA==}
+  /@auth/core@0.20.0:
+    resolution: {integrity: sha512-04lQH58H5d/9xQ63MOTDTOC7sXWYlr/RhJ97wfFLXzll7nYyCKbkrT3ZMdzdLC5O+qt90sQDK85TAtLlcZ2WBg==}
     peerDependencies:
       nodemailer: ^6.8.0
     peerDependenciesMeta:
@@ -541,7 +511,7 @@ packages:
   /@auth/drizzle-adapter@0.3.15:
     resolution: {integrity: sha512-dQ43UJfBfsbFdrdibir1nUmZ7+SJeom9K9S6GX7aSqXVGoNri5jwAqU6rcYTJQuolorrXyb/XzEf3SScjyle9g==}
     dependencies:
-      '@auth/core': 0.21.0
+      '@auth/core': 0.20.0
     transitivePeerDependencies:
       - nodemailer
     dev: false
@@ -1594,6 +1564,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -5894,6 +5865,10 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
+    dev: true
+
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
@@ -5916,7 +5891,7 @@ packages:
       nodemailer:
         optional: true
     dependencies:
-      '@auth/core': 0.18.4
+      '@auth/core': 0.20.0
       next: 14.0.4(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     dev: false
