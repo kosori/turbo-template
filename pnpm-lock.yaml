@@ -48,14 +48,14 @@ importers:
         specifier: ^0.7.3
         version: 0.7.3(typescript@5.3.3)(zod@3.22.4)
       '@tanstack/react-query':
-        specifier: ^5.17.7
+        specifier: ^5.17.15
         version: 5.17.15(react@18.2.0)
       '@tanstack/react-query-devtools':
-        specifier: ^5.17.7
+        specifier: ^5.17.15
         version: 5.17.15(@tanstack/react-query@5.17.15)(react@18.2.0)
       '@tanstack/react-query-next-experimental':
-        specifier: 5.17.7
-        version: 5.17.7(@tanstack/react-query@5.17.15)(next@14.0.4)(react@18.2.0)
+        specifier: 5.17.15
+        version: 5.17.15(@tanstack/react-query@5.17.15)(next@14.0.4)(react@18.2.0)
       '@trpc/client':
         specifier: next
         version: 11.0.0-next-beta.193
@@ -2393,10 +2393,10 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@tanstack/react-query-next-experimental@5.17.7(@tanstack/react-query@5.17.15)(next@14.0.4)(react@18.2.0):
-    resolution: {integrity: sha512-SiweKiXsMvHVvk1vPuoLLhnLyEtqQqgF1DwxZE8YdPIzbUsmJjHpV/KIyqxzXDvAqNXHTxPiu5ngDixWyD6zOA==}
+  /@tanstack/react-query-next-experimental@5.17.15(@tanstack/react-query@5.17.15)(next@14.0.4)(react@18.2.0):
+    resolution: {integrity: sha512-qHFJIwqnxR83VRadeC2qj/1UDTfwbfske8noU9zftNzWvrNd8MMn8tJQGva9RnBF4se0SWkd1PB1rFj4udfsew==}
     peerDependencies:
-      '@tanstack/react-query': ^5.17.7
+      '@tanstack/react-query': ^5.17.15
       next: ^13 || ^14
       react: ^18.0.0
     dependencies:
