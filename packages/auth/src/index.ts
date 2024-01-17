@@ -26,7 +26,7 @@ export const {
   providers: [Discord, GitHub],
   callbacks: {
     session: (opts) => {
-      if (!("user" in opts)) throw "unreachable with session strategy";
+      if (!('user' in opts)) throw 'unreachable with session strategy';
 
       return {
         ...opts.session,
