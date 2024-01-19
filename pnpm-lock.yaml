@@ -60,9 +60,6 @@ importers:
 
   apps/www:
     dependencies:
-      '@acme/auth':
-        specifier: workspace:^0.1.0
-        version: link:../../packages/auth
       '@acme/db':
         specifier: workspace:^0.1.0
         version: link:../../packages/db
