@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import { GeistMono } from 'geist/font/mono';
 import { GeistSans } from 'geist/font/sans';
 
-import { cn } from '@acme/ui';
-import { ThemeProvider } from '@acme/ui/theme';
+import { cn } from '@kosori/ui';
+import { ThemeProvider } from '@kosori/ui/theme';
 
 import { env } from '~/env';
 

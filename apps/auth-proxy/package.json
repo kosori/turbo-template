@@ -1,5 +1,5 @@
 {
-  "name": "@acme/auth-proxy",
+  "name": "@kosori/auth-proxy",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,10 +14,10 @@
     "@auth/core": "^0.21.0"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:^0.2.0",
-    "@acme/prettier-config": "workspace:^0.1.0",
-    "@acme/tailwind-config": "workspace:^0.1.0",
-    "@acme/tsconfig": "workspace:^0.1.0",
+    "@kosori/eslint-config": "workspace:^0.2.0",
+    "@kosori/prettier-config": "workspace:^0.1.0",
+    "@kosori/tailwind-config": "workspace:^0.1.0",
+    "@kosori/tsconfig": "workspace:^0.1.0",
     "eslint": "^8.56.0",
     "nitropack": "^2.8.1",
     "prettier": "^3.2.4",
@@ -26,8 +26,8 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@acme/eslint-config/base"
+      "@kosori/eslint-config/base"
     ]
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@kosori/prettier-config"
 }
