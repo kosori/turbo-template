@@ -7,6 +7,17 @@ export default {
   darkMode: ['class'],
   content: ['src/**/*.{ts,tsx}'],
   theme: {
+    borderRadius: {
+      none: '0px',
+      sm: 'calc(var(--radius) - 3px)',
+      DEFAULT: 'var(--radius)',
+      md: 'var(--radius)',
+      lg: 'calc(var(--radius) + 3px)',
+      xl: 'calc(var(--radius) + 6px)',
+      '2xl': 'calc(var(--radius) + 9px)',
+      '3xl': 'calc(var(--radius) + 12px)',
+      full: '9999px',
+    },
     colors,
     container: {
       center: true,
