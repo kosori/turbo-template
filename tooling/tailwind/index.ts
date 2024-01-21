@@ -1,10 +1,13 @@
 import type { Config } from 'tailwindcss';
 import animate from 'tailwindcss-animate';
 
+import colors from './colors';
+
 export default {
   darkMode: ['class'],
   content: ['src/**/*.{ts,tsx}'],
   theme: {
+    colors,
     container: {
       center: true,
       padding: '2rem',
