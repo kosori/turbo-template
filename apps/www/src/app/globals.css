@@ -1772,4 +1772,20 @@
     --grey-11: 52.5 4.9% 68.2%;
     --grey-12: 60 5.6% 92.9%;
   }
+
+  [data-radius='none'] {
+    --radius: 0;
+  }
+
+  [data-radius='small'] {
+    --radius: 3px;
+  }
+
+  [data-radius='medium'] {
+    --radius: 6px;
+  }
+
+  [data-radius='large'] {
+    --radius: 9px;
+  }
 }
