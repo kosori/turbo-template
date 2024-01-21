@@ -1,5 +1,5 @@
 {
-  "name": "@acme/eslint-config",
+  "name": "@kosori/eslint-config",
   "version": "0.2.0",
   "private": true,
   "license": "MIT",
@@ -27,8 +27,8 @@
     "eslint-plugin-tailwindcss": "^3.14.0"
   },
   "devDependencies": {
-    "@acme/prettier-config": "workspace:^0.1.0",
-    "@acme/tsconfig": "workspace:^0.1.0",
+    "@kosori/prettier-config": "workspace:^0.1.0",
+    "@kosori/tsconfig": "workspace:^0.1.0",
     "@types/eslint": "^8.56.2",
     "eslint": "^8.56.0",
     "prettier": "^3.2.4",
@@ -40,5 +40,5 @@
       "./base.js"
     ]
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@kosori/prettier-config"
 }
