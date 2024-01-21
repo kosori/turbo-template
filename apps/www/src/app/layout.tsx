@@ -37,7 +37,7 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout(props: { children: React.ReactNode }) {
+const RootLayout = (props: { children: React.ReactNode }) => {
   return (
     <html suppressHydrationWarning lang='en'>
       <body
@@ -53,4 +53,6 @@ export default function RootLayout(props: { children: React.ReactNode }) {
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
