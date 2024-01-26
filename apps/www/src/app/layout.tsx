@@ -46,6 +46,13 @@ const RootLayout = (props: { children: React.ReactNode }) => {
           GeistSans.variable,
           GeistMono.variable,
         )}
+        data-accent-color='violet'
+        data-error-color='red'
+        data-grey-color='mauve'
+        data-info-color='blue'
+        data-radius='medium'
+        data-success-color='green'
+        data-warning-color='yellow'
       >
         <ThemeProvider enableSystem attribute='class' defaultTheme='system'>
           {props.children}
