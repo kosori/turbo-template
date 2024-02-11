@@ -3,7 +3,7 @@ import _jiti from 'jiti';
 const jiti = _jiti(new URL(import.meta.url).pathname);
 
 // Import env files to validate at build time. Use jiti so we can load .ts files in here.
-jiti('./src/env.js');
+jiti('./src/env');
 jiti('@acme/auth/env');
 
 /** @type {import("next").NextConfig} */
