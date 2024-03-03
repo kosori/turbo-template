@@ -18,8 +18,8 @@ export const env = createEnv({
     AUTH_SECRET:
       process.env.NODE_ENV === 'production'
         ? z
-          .string({ required_error: 'Please add the AUTH_SECRET variable' })
-          .min(1)
+            .string({ required_error: 'Please add the AUTH_SECRET variable' })
+            .min(1)
         : z.string().min(1).optional(),
   },
   client: {},
