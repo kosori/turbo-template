@@ -4,20 +4,19 @@ import * as dotenv from 'dotenv';
 dotenv.config({ path: '../../.env' });
 
 const uri = [
-  'mysql://',
+  'postgres://',
   process.env.DB_USERNAME,
   ':',
   process.env.DB_PASSWORD,
   '@',
   process.env.DB_HOST,
-  ':3306/',
+  ':6543/',
   process.env.DB_NAME,
-  '?ssl={"rejectUnauthorized":true}',
 ].join('');
 
 export default {
   schema: './src/schema',
-  driver: 'mysql2',
-  dbCredentials: { uri },
-  tablesFilter: ['t3turbo_*'],
+  driver: 'pg',
+  dbCredentials: { connectionString: uri },
+  tablesFilter: ['turbo-template_*'],
 } satisfies Config;
