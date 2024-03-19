@@ -16,9 +16,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@planetscale/database": "^1.16.0",
-    "drizzle-orm": "^0.29.3",
-    "mysql2": "^3.9.2"
+    "drizzle-orm": "^0.29.5",
+    "postgres": "^3.4.3"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:^0.2.0",
@@ -27,6 +26,7 @@
     "dotenv-cli": "^7.4.1",
     "drizzle-kit": "^0.20.14",
     "eslint": "^8.56.0",
+    "pg": "^8.11.3",
     "prettier": "^3.2.5",
     "typescript": "^5.4.2"
   },
