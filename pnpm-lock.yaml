@@ -27,8 +27,8 @@ importers:
   apps/auth-proxy:
     dependencies:
       '@auth/core':
-        specifier: ^0.26.3
-        version: 0.26.3
+        specifier: ^0.28.1
+        version: 0.28.1
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:^0.2.0
