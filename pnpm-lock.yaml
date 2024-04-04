@@ -42,6 +42,9 @@ importers:
       '@acme/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../../tooling/typescript
+      '@types/node':
+        specifier: ^20.12.3
+        version: 20.12.3
       eslint:
         specifier: ^8.56.0
         version: 8.56.0
