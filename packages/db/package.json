@@ -17,7 +17,7 @@
     "format": "prettier --check . --ignore-path ../../.gitignore",
     "lint": "eslint .",
     "push": "pnpm with-env drizzle-kit push:pg --config src/config.ts",
-    "studio": "drizzle-kit studio",
+    "studio": "pnpm with-env drizzle-kit studio --config src/config.ts",
     "typecheck": "tsc --noEmit",
     "with-env": "dotenv -e ../../.env --"
   },
