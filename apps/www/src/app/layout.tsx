@@ -42,7 +42,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html suppressHydrationWarning lang='en'>
       <body
         className={cn(
           'min-h-screen bg-background font-sans text-foreground antialiased',
@@ -50,7 +50,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
           GeistMono.variable,
         )}
       >
-        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+        <ThemeProvider enableSystem attribute='class' defaultTheme='system'>
           <TRPCReactProvider>{props.children}</TRPCReactProvider>
           <div className='absolute bottom-4 right-4'>
             <ThemeToggle />
