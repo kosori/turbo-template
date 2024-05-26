@@ -1,10 +1,10 @@
 {
-  "name": "turbo-template",
+  "name": "create-t3-turbo",
   "private": true,
   "engines": {
-    "node": ">=20.13.1"
+    "node": ">=20.12.0"
   },
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@9.1.0",
   "scripts": {
     "build": "turbo build",
     "clean": "git clean -xdf node_modules",
@@ -18,7 +18,8 @@
     "lint:fix": "turbo lint --continue -- --fix --cache --cache-location node_modules/.cache/.eslintcache",
     "lint:ws": "pnpm dlx sherif@latest",
     "postinstall": "pnpm lint:ws",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "ui-add": "pnpm -F ui ui-add"
   },
   "devDependencies": {
     "@acme/prettier-config": "workspace:*",
