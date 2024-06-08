@@ -46,7 +46,7 @@ importers:
         specifier: ^20.12.9
         version: 20.14.1
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       h3:
         specifier: ^1.11.1
@@ -137,7 +137,7 @@ importers:
         specifier: ^7.4.2
         version: 7.4.2
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       jiti:
         specifier: ^1.21.0
@@ -183,7 +183,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/typescript
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       prettier:
         specifier: ^3.2.5
@@ -229,7 +229,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/typescript
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       prettier:
         specifier: ^3.2.5
@@ -272,7 +272,7 @@ importers:
         specifier: ^0.21.1
         version: 0.21.4
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       prettier:
         specifier: ^3.2.5
@@ -333,7 +333,7 @@ importers:
         specifier: ^18.3.2
         version: 18.3.3
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       prettier:
         specifier: ^3.2.5
@@ -367,7 +367,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/typescript
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       prettier:
         specifier: ^3.2.5
@@ -407,7 +407,7 @@ importers:
         specifier: workspace:*
         version: link:../typescript
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       prettier:
         specifier: ^3.2.5
@@ -459,7 +459,7 @@ importers:
         specifier: workspace:*
         version: link:../typescript
       eslint:
-        specifier: ^9.2.0
+        specifier: ^9.4.0
         version: 9.4.0
       prettier:
         specifier: ^3.2.5
