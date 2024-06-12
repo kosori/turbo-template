@@ -22,7 +22,7 @@
     "eslint": "^9.4.0",
     "h3": "^1.11.1",
     "nitropack": "^2.9.6",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.2",
     "typescript": "^5.4.5"
   },
   "prettier": "@acme/prettier-config"
