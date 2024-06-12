@@ -247,11 +247,11 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0
       drizzle-orm:
-        specifier: ^0.30.10
-        version: 0.30.10(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1)
+        specifier: ^0.31.2
+        version: 0.31.2(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1)
       drizzle-zod:
         specifier: ^0.5.1
-        version: 0.5.1(drizzle-orm@0.30.10(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1))(zod@3.23.8)
+        version: 0.5.1(drizzle-orm@0.31.2(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1))(zod@3.23.8)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -2629,8 +2629,8 @@ packages:
     resolution: {integrity: sha512-Nxcc1ONJLRgbhmR+azxjNF9Ly9privNLEIgW53c92whb4xp8jZLH1kMCh/54ci1mTMuYxPdOukqLwJ8wRudNwA==}
     hasBin: true
 
-  drizzle-orm@0.30.10:
-    resolution: {integrity: sha512-IRy/QmMWw9lAQHpwbUh1b8fcn27S/a9zMIzqea1WNOxK9/4EB8gIo+FZWLiPXzl2n9ixGSv8BhsLZiOppWEwBw==}
+  drizzle-orm@0.31.2:
+    resolution: {integrity: sha512-QnenevbnnAzmbNzQwbhklvIYrDE8YER8K7kSrAWQSV1YvFCdSQPzj+jzqRdTSsV2cDqSpQ0NXGyL1G9I43LDLg==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=3'
@@ -2640,6 +2640,7 @@ packages:
       '@op-engineering/op-sqlite': '>=2'
       '@opentelemetry/api': ^1.4.1
       '@planetscale/database': '>=1'
+      '@tidbcloud/serverless': '*'
       '@types/better-sqlite3': '*'
       '@types/pg': '*'
       '@types/react': '>=18'
@@ -2673,6 +2674,8 @@ packages:
       '@opentelemetry/api':
         optional: true
       '@planetscale/database':
+        optional: true
+      '@tidbcloud/serverless':
         optional: true
       '@types/better-sqlite3':
         optional: true
@@ -7168,7 +7171,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.30.10(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1):
+  drizzle-orm@0.31.2(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1):
     optionalDependencies:
       '@neondatabase/serverless': 0.7.2
       '@opentelemetry/api': 1.8.0
@@ -7177,9 +7180,9 @@ snapshots:
       '@vercel/postgres': 0.8.0
       react: 18.3.1
 
-  drizzle-zod@0.5.1(drizzle-orm@0.30.10(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1))(zod@3.23.8):
+  drizzle-zod@0.5.1(drizzle-orm@0.31.2(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1))(zod@3.23.8):
     dependencies:
-      drizzle-orm: 0.30.10(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1)
+      drizzle-orm: 0.31.2(@neondatabase/serverless@0.7.2)(@opentelemetry/api@1.8.0)(@types/pg@8.6.6)(@types/react@18.3.3)(@vercel/postgres@0.8.0)(react@18.3.1)
       zod: 3.23.8
 
   duplexer@0.1.2: {}
